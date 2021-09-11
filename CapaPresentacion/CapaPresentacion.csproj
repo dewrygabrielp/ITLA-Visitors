@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D882FD5-E9AA-4AC6-B708-37E502FBEB9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Dewry\ITLA\Programación 2\Instaladores y Script\Bunifu_UI_v1.52\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAula.Designer.cs">
+      <DependentUpon>frmAula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguration.Designer.cs">
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultarVisitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultarVisitas.Designer.cs">
+      <DependentUpon>frmConsultarVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdificio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdificio.Designer.cs">
+      <DependentUpon>frmEdificio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisitas.Designer.cs">
+      <DependentUpon>frmVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAula.resx">
+      <DependentUpon>frmAula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguration.resx">
+      <DependentUpon>frmConfiguration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultarVisitas.resx">
+      <DependentUpon>frmConsultarVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdificio.resx">
+      <DependentUpon>frmEdificio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisitas.resx">
+      <DependentUpon>frmVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-iniciar-sesión-formulario-contraseña-48.png" />
+    <Content Include="Img\AdminimgD.png" />
+    <None Include="Img\pngITLA2.jpg" />
+    <None Include="Img\pngITLA.jpg" />
+    <None Include="Img\TitleInstitute.png" />
+    <None Include="Img\TitleRegisterVisitors.png" />
+    <None Include="Img\visitor registration.png" />
+    <None Include="Img\TitleInquieres.png" />
+    <None Include="Img\textlinea.png" />
+    <None Include="Img\texboximg.png" />
+    <None Include="Resources\icons8-iniciar-sesión-formulario-contraseña-48.png" />
+    <None Include="Img\backimg.png" />
+    <None Include="Img\backgroundblue.png" />
+    <None Include="Img\btnBackInquieres.png" />
+    <Content Include="Img\btneliminar.png" />
+    <Content Include="Img\btnguardar.png" />
+    <Content Include="Img\btnInscripcion.png" />
+    <Content Include="Img\btnNuevo.png" />
+    <Content Include="Img\cerrar.jpg" />
+    <Content Include="Img\configurationimg.png" />
+    <None Include="Img\flechaback.png" />
+    <None Include="Img\file.JPG" />
+    <Content Include="Img\icons8-apagar-24.png" />
+    <Content Include="Img\icons8-caja-de-herramientas-100.png" />
+    <Content Include="Img\icons8-caja-registradora-128.png" />
+    <Content Include="Img\icons8-cancelar-48.png" />
+    <Content Include="Img\icons8-cerrar-ventana-50 %281%29.png" />
+    <Content Include="Img\icons8-cerrar-ventana-50.png" />
+    <Content Include="Img\icons8-crear-nuevo-50.png" />
+    <None Include="Img\icons8-edificios-de-la-ciudad-48.png" />
+    <None Include="Img\icons8-cursos-48.png" />
+    <Content Include="Img\icons8-editar-24.png" />
+    <Content Include="Img\icons8-editar-usuaria-48.png" />
+    <Content Include="Img\icons8-eliminar-48.png" />
+    <Content Include="Img\icons8-eliminar-50.png" />
+    <Content Include="Img\icons8-espionaje-60.png" />
+    <Content Include="Img\icons8-estudiante-masculino-50.png" />
+    <None Include="Img\icons8-formato-claro-48.png" />
+    <Content Include="Img\icons8-guardar-48.png" />
+    <Content Include="Img\icons8-guardar-cerrar-50.png" />
+    <Content Include="Img\icons8-herramientas-de-accesibilidad-100.png" />
+    <Content Include="Img\icons8-herramientas-del-administrador-48.ico" />
+    <Content Include="Img\icons8-herramientas-del-administrador-48.png" />
+    <Content Include="Img\icons8-herramientas-del-administrador-50.png" />
+    <Content Include="Img\icons8-menú-24.png" />
+    <Content Include="Img\icons8-minimizar-la-ventana-50 %281%29.png" />
+    <Content Include="Img\icons8-minimizar-la-ventana-50.png" />
+    <Content Include="Img\icons8-minimizar-la-ventana-60.png" />
+    <None Include="Img\logoitla.png" />
+    <None Include="Img\logoitla2.png" />
+    <None Include="Img\icons8-subir-48.png" />
+    <None Include="Img\icons8-universidad-50.png" />
+    <Content Include="Img\minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{2749ad7b-fa38-40f3-b244-644656a78e30}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{bbdcb7bb-c2cc-480a-9a4e-f55ff7e5fdb1}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
