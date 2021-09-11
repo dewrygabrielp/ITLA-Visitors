@@ -1,0 +1,14 @@
+C:\Users\Delli7\Desktop\Proyecto Final Prog2\ItlaProcesos\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Delli7\Desktop\Proyecto Final Prog2\ItlaProcesos\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Delli7\Desktop\Proyecto Final Prog2\ItlaProcesos\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Delli7\Desktop\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\Delli7\Desktop\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Delli7\Desktop\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Delli7\Desktop\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Delli7\Desktop\Dewry\ITLA\Programación 2\Tareas\Proyecto Final Prog2\ItlaProcesos\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\Delli7\Desktop\Dewry\ITLA\Programación 2\Tareas\Proyecto Final Prog2\ItlaProcesos\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Delli7\Desktop\Dewry\ITLA\Programación 2\Tareas\Proyecto Final Prog2\ItlaProcesos\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Delli7\Desktop\Dewry\ITLA\Programación 2\Tareas\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\Delli7\Desktop\Dewry\ITLA\Programación 2\Tareas\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Delli7\Desktop\Dewry\ITLA\Programación 2\Tareas\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Delli7\Desktop\Dewry\ITLA\Programación 2\Tareas\Proyecto Final Prog2\ItlaProcesos\CapaDatos\obj\Debug\CapaDatos.pdb
